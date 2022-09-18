@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waqar Asghar Portfolio</title>
+    <script src="https://kit.fontawesome.com/a45abe3bf1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="typing.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <div class="navcontainer"  id="navmenu">
+        <a href="#top">Home</a>
+        <a href="#about_div">About</a>
+        <a href="#res_div">Resume</a>
+        <a href="#proj_div">Projects</a>
+        <a href="#Testimonials_div">Testimonials</a>
+        <a href="#bottom">Contact US</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+
+    <script>
+          function myFunction() {
+          var x = document.getElementById("navmenu");
+          if (x.className === "navcontainer") {
+          x.className += " responsive";
+          } else {
+          x.className = "navcontainer";
+                 }
+                                }
+    </script>
+
+    <script type="text/javascript" >
+         $(document).on('click', 'a[href^="#"]', function (event) {
+         event.preventDefault();
+
+         $('html, body').animate({
+         scrollTop: $($.attr(this, 'href')).offset().top}, 1000); });
+    </script>
+    
+    <div class="introduction" id="top">
+        <div class="container banr">
+            <div class="row">
+                <div class="col-12"><h1 class="my_name">Hi, I'm Waqar Asghar</h1></div>
+                <div class="col-12"><h5>Software Engineer|<span class="txt-type" data-wait="3000" data-words='["NUML Islamabad"]'>NUML Islamabad</span></h5></div>
+                <div class="col-12 banr_icon">
+                    <a href="https://www.linkedin.com/in/waqar-asghar-75b46919b/" class="fa-brands fa-linkedin"></a> 
+                    <a href="https://web.facebook.com/" class="fa-brands fa-square-facebook"></a>
+                    <a href="https://stackoverflow.com/" class="fa-brands fa-stack-overflow"></a>
+                    <a href="https://github.com/Waqar556" class="fa-brands fa-github"></a>
+                    <a href="https://twitter.com/login" class="fa-brands fa-twitter"></a>
+                    <a href="https://www.instagram.com/" class="fa-brands fa-square-instagram"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bnnr_button"><a href="#bottom">&#8744;</a></div>
+    <div class="about_me" id="about_div">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 pt-4 text-center">
+                    <img src="image/IMG_20210510_200537.jpg" alt="Profile Picture" class="img-fluid profile_pic">
+                </div>
+                <div class="col-12 col-md-9">
+                    <h5 class="about_me_hd">ABOUT ME</h5>
+                    <p class="profile_intro">I have done my Bachelor's of Science in Software Engineering, and now I am looking for a firm to excel among the professionals. Where I can utilize my skills and knowledge with strong commitment and dedication, for the progressive growth of the firm.</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6 p-0 m-0 profile_detail">
+                                    <h5 class="prof-det_hd">PROFILE DETAILS</h5>
+                                    <p>Waqar Asghar</p>
+                                    <p>Rawalpindi</p>
+                                    <p>Punjab, Pakistan 46660</p>
+                                    <p>+923485192078</p>
+                                    <p>waqarasghar556@gmail.com</p>
+                                </div>
+                                <div class="col-12 col-md-6 download_btn p-0">
+                                    <a  href="file/Waqar Asghar Resume (1).pdf" download><i class="fa fa-download"></i> Download Resume</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume" id="res_div">
+        <div class="container">
+            <div class="row education">
+                <div class="col-12 col-md-3"><h5 class="education_h">EDUCATION</h5></div>
+                <div class="col-12 col-md-9 education_detail">
+                    <h5>National University of Modern Languages, Islamabad</h5>
+                    <p>Bachelor of Science in Software Engineering(BSSE) Sep 2017- Oct 2021</p>
+                    <h5>FG Liaquat Ali Degree College for Boys Peshawar Road, Rawalpindi</h5>
+                    <p>HSSC (FSC Pre Engineering)15 Aug 2014- 17 Aug 2016</p>
+                    <h5>FG Boys Secondary School Nai Chawni, Westridge Rawalpindi Cantt</h5>
+                    <p>SSC (Computer Science) 27 June, 2014</p>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row Skills">
+                <div class="col-12 col-md-3"><h5 class="skills_h">SKILLS</h5></div>
+                <div class="col-12 col-md-9">
+                    <p>Front End Developer who want to keep exploring.</p>
+                    <div class="skills_detail">
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/html5-2.svg" alt="" class="img-fluid">
+                            <p>HTML 5</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/css-3.svg" alt="" class="img-fluid">
+                            <p>CSS 3</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/bootstrap-5-1.svg" alt="" class="img-fluid">
+                            <p>Bootstrap 5</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/javascript-1.svg" alt="" class="img-fluid">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/jquery-2.svg" alt="" class="img-fluid">
+                            <p>Jquery</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/react-2.svg" alt="" class="img-fluid">
+                            <p>React.js</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/php-1.svg" alt="" class="img-fluid">
+                            <p>PHP</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/mysql-6.svg" alt="" class="img-fluid">
+                            <p>MYSql</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/github-icon-1.svg" alt="" class="img-fluid">
+                            <p>Github</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/python-5.svg" alt="" class="img-fluid">
+                            <p>Python</p>
+                        </div>
+                        <div class="col-sm-3 col-4 col-md-2">
+                            <img src="image/microsoft-sql-server-1.svg" alt="" class="img-fluid">
+                            <p>MS Sql Server</p>
+                        </div>
+                        <div class="col-4 col-md-2 col-sm-3">
+                            <img src="image/c--4.svg" alt="" class="img-fluid">
+                            <p>C#</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row certification">
+                <div class="col-12 col-md-3"><h5 class="certification_h">CERTIFICATIONS</h5></div>
+                <div class="col-12 col-md-9">
+                    <ul class="certification_detail">
+                        <li>Introduction to Front End Development</li>
+                        <p>By Meta through Coursera</p>
+                        <li>Wordpress</li>
+                        <p>By DigiSkills</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project" id="proj_div">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 text-center"><h4>PROJECTS DETAILS</h4></div>
+                <div class="col-12">
+                    <h5>FYP Voice Based Virtual Assistant for Windows Python/PyQT5 </h5>
+                    <p> A desktop based application for performing task through voice command based on offline voice 
+                        recognition model. It facilitates the userto perform basic task through voice command.</p>
+
+                    <h5>Airline Reservation System .NET / Windows Forms Application</h5>
+                    <p> System which is used for storing Passenger data and flight booking record that is booked by the passenger.
+                        Our main focus in this system is to keep Passenger Information records and maintain Flight Booking records in detail.</p>
+
+                    <h5>Paper & Tea HTML / CSS / PHP/ JavaScript</h5>
+                    <p>A web application where user can buy products related to tea, different kinds of tea and many more.</p>
+
+                    <h5>NUML Entry Test System C++</h5>
+                    <p>A management system for accomplishing admission related task like student registration, conducting entry test, displaying merit lists & result etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="testimonials" id="Testimonials_div">
+    <div class="container testimonials_container">
+        <div class="testimonials_item" id="1">
+            <img class="client_image" src="image/bandmember.jpg" alt="Avatar"><br>
+            <p>Chris Fox</p>
+            <h3><span>&#147</span>Todo Perfecto<span>&#148</span></h3>
+            <img src="image/five-star-rating.png" alt="rating star" width="200" height="40">
+        </div>
+
+        <div class="testimonials_item" id="2">
+            <img class="client_image" src="image/avatar_g2.jpg" alt="Avatar"><br>
+            <p>Rebecca Flex</p>
+            <h3><span>&#147</span>Mighty Schools<span>&#148</span></h3>
+            <img src="image/five-star-rating.png" alt="rating star"  width="200" height="40">
+        </div>
+
+        <div class="testimonials_item" id="3">
+            <img class="client_image" src="image/avatar.jpeg" alt="Avatar"><br>
+            <p>Alex</p>
+            <h3><span>&#147</span> Tech Tab <span>&#148</span></h3>
+            <img src="image/five-star-rating.png" alt="rating star" width="200" height="40">
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("testimonials_item");
+  if (n > slides.length) {
+    slideIndex = 1;
+                     }    
+  if (n < 1) {
+    slideIndex = slides.length;
+             }
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+     }
+      slides[slideIndex-1].style.display = "block";  
+          }
+</script>
+
+<div class="contact_us" id="bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4"><h4>CONTACT ME</h4></div>
+            <div class="col-6 contact_detail">
+               <p>Please fil out the form on this section to contact with me. Or call between 9:00 am to 6:00 pm, From Monday to Friday</p>
+               <h6>Call me</h6>
+               <p class="contac_num">+923485192078</p>
+               <h6>Email</h6>
+               <p class="contac_email">waqarasghar556@gmail.com</p>
+            </div>
+            <div class="col-6 ">
+                <form action="" class="contact_form">
+                    <input type="text" class="form-control" id="user_name" name="client_name" placeholder="Your Name">
+                    <input type="email" class="form-control " id="client_email" name="client_email" placeholder="Your Email">
+                    <input type="tel" class="form-control" id="client_number" name="client_number" placeholder="Your Phone">
+                    <textarea class="form-control" name="client_message" id="" rows="6" placeholder="Your message here"></textarea>
+                    <button type="submit" class="btn btn-dark">Submit Message</button>
+                </form>
+            </div>
+    </div>
+</div>
+    <div class="text-center ftr_button"><a href="#top">&#94;</a></div>
+</body>
+</html>

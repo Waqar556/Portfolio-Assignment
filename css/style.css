@@ -1,0 +1,426 @@
+body{
+    box-sizing: border-box;
+}
+.navcontainer{
+    background-color: #282c34;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.navcontainer a{
+    display: inline-block;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navcontainer a:hover{
+    color: #F06000;
+    text-decoration: none;
+}
+.navcontainer .icon {
+    display: none;
+  }
+.introduction{
+    position: relative;
+    background-color: #282c34;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.banr{
+    text-align: center;
+    font-family: monospace;
+    color:white;
+}
+.my_name{
+    font-family: "Reem Kufi", sans-serif;
+}
+.bnnr_button{
+    position: absolute;
+    z-index: 1;
+    bottom: 1%;
+    left: 48%;
+}
+.bnnr_button a{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 48px;
+    padding: 11px 2px 11px 18px;
+    outline: 1px solid #282c34;
+    font-weight: bold;
+}
+.bnnr_button a:hover{
+    text-decoration: none;
+    background-color: #F06000;
+    color: #888;
+    font-size: 18px;
+    width: 52px;
+    padding-left: 19px;
+}
+.banr_icon a{
+    margin-right: 5px;
+	font-size: 35px;
+    color: white;
+}
+.banr_icon a:hover{
+    text-decoration: none;
+    color: #F06000;
+}
+.about_me{
+    padding: 70px 0px 70px 0px;
+    background-color: #2B2B2B;
+    color: white;
+}
+.about_me_hd:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    background-color: #F06000;
+}
+.prof-det_hd:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 155px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    background-color: #F06000;
+}
+.profile_intro{
+    color: #888888;
+    text-align: justify;
+}
+.profile_pic{
+    box-shadow: 0px 0px 5px 1px #282c34;
+    border-radius: 10px;
+}
+.profile_detail p{
+    margin: 0px;
+    color: #888888;
+}
+.download_btn{
+    margin-top: 20px;
+}
+.download_btn a{
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #32363f;
+    color: white;
+}
+.download_btn a:hover{
+    text-decoration: none;
+    background-color: #F06000;
+    color: white;
+}
+.resume{
+    padding: 70px 0px 70px 0px;
+}
+.education_h:after{
+    content: "";
+    display: block;
+    margin-left: 1px;
+    margin-top: 3px;
+    width: 108px;
+    height: 3px;
+    background-color: #F06000;
+}
+.education_detail p{
+    color: #888888;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.education_detail h5{
+    margin-bottom: 0px;
+}
+.skills_h:after{
+    content: "";
+    display: block;
+    margin-left: 1px;
+    margin-top: 3px;
+    width: 58px;
+    height: 3px;
+    background-color: #F06000;
+}
+.skills_detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -40px;
+}
+.skills_detail div{
+    text-align: center;
+}
+.skills_detail img{
+    width: 70px;
+    height: 70px;
+}
+.skills_detail p{
+    font-weight: 400;
+}
+.certification_h:after{
+    content: "";
+    display: block;
+    margin-left: 1px;
+    margin-top: 3px;
+    width: 148px;
+    height: 3px;
+    background-color: #F06000;
+}
+.certification_detail li{
+    font-weight: bold;
+}
+.certification_detail p{
+    font-style: italic;
+}
+.project{
+    background-color: rgb(233, 231, 231);
+    padding: 70px 0px 70px 0px;
+}
+.project h4:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: #F06000;
+}
+.project h5{
+    margin-bottom: 0px;
+}
+.project p{
+    color: #888888;
+    text-align: justify;
+}
+.testimonials{
+    padding: 70px 0px 70px 0px;
+    background-color: black;
+    position: relative;
+    border-bottom: 1px solid white;
+}
+.testimonials_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials_item{
+    text-align: center;
+    display: none;
+}
+.testimonials_item h3{
+    color: white;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    background-color: #F06000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+.prev:hover, .next:hover {
+    text-decoration: none;
+    color: #888;
+}
+.client_image{
+    width: 90px;
+    border-radius: 50%;
+}
+.contact_us{
+    padding: 50px 0px 70px 0px;
+    background-color: #2B2B2B;
+    color: white;
+    position: relative;
+}
+.contact_us h4:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 146px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: #F06000;
+
+}
+.contac_num:before{
+    content:"\f879";
+    font-family: FontAwesome;
+    color: white;
+    margin-right: 5px;
+}
+.contac_email:before{
+    content:"\f0e0";
+    font-family: FontAwesome;
+    color: white;
+    margin-right: 5px;
+}
+.contact_form input{
+    background-color: #3d3c3cdc;
+    border: none;
+    margin-bottom: 10px;
+    color: #888888;
+}
+.contact_form input::placeholder{
+    color: #888888;
+}
+.contact_form input:focus{
+    background-color: #3d3c3cdc;
+    box-shadow: none;
+    color: #888888;
+    outline:2px solid #4b4a4adc;;
+
+}
+.contact_form textarea{
+    background-color: #3d3c3cdc;
+    border: none;
+    margin-bottom: 10px;
+    color: #888888;
+    resize: none;
+}
+.contact_form textarea::placeholder{
+    color: #888888;
+}
+.contact_form textarea:focus{
+    background-color: #3d3c3cdc;
+    outline: #3d3c3cdc;
+    color: #888888;
+    box-shadow: none;
+    outline:2px solid #4b4a4adc;;
+}
+.contact_form button{
+    background-color: #32363f;
+    padding: 8px;
+}
+.contact_form button:hover{
+    background-color: #F06000;
+}
+.contact_detail h6,p{
+     margin-bottom: 0px;
+     color:#888888;
+}
+.ftr_button{
+    position: absolute;
+    z-index: 1;
+    top: -4%;
+    left: 48%;
+}
+.ftr_button a{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 48px;
+    padding: 11px 2px 11px 2px;
+    outline: 1px solid #282c34;
+    font-weight: bold;
+}
+.ftr_button a:hover{
+    text-decoration: none;
+    background-color: #F06000;
+    color: #888;
+    font-size: 18px;
+    width: 52px;
+}
+@media screen and (max-width:768px) {
+.navcontainer a:not(:first-child) {
+    display: none;
+}
+.navcontainer{
+    text-align: left;
+    padding: 8px;
+}
+.navcontainer a.icon{
+    display: block;
+    float: right;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.navcontainer.responsive {
+    position: relative;
+    background-color: #2B2B2B;
+}
+.navcontainer.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+.profile_pic{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 5px;
+  }
+.skills_detail{
+    margin-left: 0px;
+}
+.education_h:after{
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills_h:after{
+    margin-left: auto;
+    margin-right: auto;
+}
+.certification_h:after{
+    margin-left: auto;
+    margin-right: auto;
+}
+.education_h{
+    text-align: center;
+}
+.skills_h{
+    text-align: center;
+}
+.certification_h{
+    text-align: center;
+}
+}
+@media screen and (max-width:1040px){
+.bnnr_button{
+        bottom: -4%;
+        left: 48%;
+    }
+}
+@media screen and (max-width:1200px){
+    .bnnr_button{
+            bottom: -2%;
+            left: 48%;
+        }
+    }
+@media screen and (max-width:320px){
+.bnnr_button{
+        bottom: -2%;
+        left: 45%;
+    }
+.contac_email{
+        font-size: 11px;
+    }
+
+}
